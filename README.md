@@ -11,8 +11,8 @@ El sistema debe asignar un identificador único a cada nota.
 - Mostrar notas por etiqueta.
 - Mostrar la etiqueta con más notas.
 
-Tu tarea es implementar las clases del modelo en el archivo `app/notebook.py` y las
-clases de la interfaz de usuario en el archivo `app/console.py`. 
+Tu tarea es implementar las clases del modelo en el archivo `src/notebook.py` y las
+clases de la interfaz de usuario en el archivo `src/console.py`. 
 
 Considera los siguientes aspectos para la implementación:
 
@@ -98,9 +98,10 @@ Cada opción se debe implementar como un método de una clase que representa la 
 Además, se debe implementar un método que tenga el ciclo principal de la aplicación. El ciclo debe mostrar el menú y
 ejecutar la opción seleccionada por el usuario. El ciclo debe terminar cuando el usuario seleccione la opción de salir.
 
- > **Consejo**: Si vas a utilizar alguna librería externa para manejar la interfaz de usuario, asegúrate
- > de instalarla en el entorno virtual de tu proyecto. Puedes usar el comando `uv add <nombre_paquete>` para instalar
- > paquetes en tu entorno virtual.
+ > **Consejo**: Puedes utilizar una IA como ChatGPT, Copilot, etc. para ayudarte a generar el código de la interfaz.
+ > Para esto, puedes copiar la descripción de la interfaz de usuario y adjuntar el archivo con la implementación que 
+ > has hecho de las clases del modelo. Recuerda que es importante que revises y trates de entender el código generado 
+ > (puedes preguntarle a la IA si no entiendes algo, para que te lo explique).
 
 ## 4. Script principal
 
