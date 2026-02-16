@@ -14,5 +14,3 @@ def main():
 # solo se ejecute si este archivo es el principal
 if __name__ == "__main__":
     main()
-
-# Hola como estas
